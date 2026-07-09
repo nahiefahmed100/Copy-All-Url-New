@@ -1,1 +1,18 @@
-
+{
+  "keys": {
+    "KEY-ABCD-1234-EFGH": {
+      "active": true,
+      "note": "User 1 নাম",
+      "expires": null
+    },
+    "KEY-WXYZ-5678-IJKL": {
+      "active": true,
+      "note": "User 2 নাম",
+      "expires": "2025-12-31"
+    },
+    "KEY-REVK-0000-0000": {
+      "active": false,
+      "note": "Block করা user"
+    }
+  }
+}
