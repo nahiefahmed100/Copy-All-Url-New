@@ -1,0 +1,26 @@
+{
+  "manifest_version": 3,
+  "name": "NAYEEM RAJ ",
+  "version": "69.420",
+  "description": "Expands and copies ALL commenter + replier full names with clean profile URLs (deduped).",
+  "permissions": [
+    "clipboardWrite"
+  ],
+  "icons": {
+    "16": "stfile.png",
+    "48": "stfile.png",
+    "128": "stfile.png"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://www.facebook.com/*",
+        "https://m.facebook.com/*"
+      ],
+      "js": [
+        "content.js"
+      ],
+      "run_at": "document_idle"
+    }
+  ]
+}
